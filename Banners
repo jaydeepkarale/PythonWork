@@ -3,11 +3,10 @@ from colorama import init
 from termcolor import cprint
 import sys
 
-# use to make banner
+
 cprint(figlet_format("Made In Python"), 'cyan', attrs=['bold','blink'])
 
-# use to display normal text in color
-cprint("Made With <3 \u2764\ufe0f or ❤ | Follow @_jaydeepkarale For More", 'cyan',  attrs=['bold'])
+cprint("Made With \u2764\ufe0f | Follow @_jaydeepkarale For More ", 'cyan',  attrs=['bold'])
 
 
 
